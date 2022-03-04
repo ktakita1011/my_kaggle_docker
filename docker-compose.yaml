@@ -1,13 +1,14 @@
-version: '2.3'
-
 services:
   app:
-    runtime: nvidia
     build: .
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
     shm_size: '8gb'
-    environment:
-      - NVIDIA_VISIBLE_DEVICES=1
-      - NVIDIA_DRIVER_CAPABILITIES=all
     volumes:
       - ./:/workdir
     working_dir: /workdir
