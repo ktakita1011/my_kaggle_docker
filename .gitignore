@@ -12,11 +12,7 @@ jupyter.log
 *.cache
 .ipynb_checkpoints
 work/output/*
-.idea
 work/notebook/wandb
-work/notebook/swin_large_patch4_window7_224
-work/notebook/swin_large_patch4_window12_384/default/*
-work/notebook/swin_large_patch4_window12_384
 work/notebook/.ipynb_checkpoints
 .Trash-0
 work/notebook/nohup.out
