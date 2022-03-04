@@ -1,6 +1,8 @@
 how to use
+```
 $docker-compose up
 $docker-compose up -d
+```
 
 # something setting
 default python switch

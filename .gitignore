@@ -6,7 +6,6 @@ jupyter.log
 *.ckpt
 *.zip
 *.jpg
-*.txt
 *.csv
 *.png
 *.cache
