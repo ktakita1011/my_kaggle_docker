@@ -20,4 +20,5 @@ work/2ndstage/.ipynb_checkpoints
 work/2ndstage/output/*
 wandb/*
 lightning_logs/*
-work/notebooks/yolo_data/*
+work/notebooks/data/*
+work/notebooks/dataset/*
