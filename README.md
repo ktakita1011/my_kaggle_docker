@@ -1,3 +1,7 @@
+# What is this
+kaggle docker can use GPU  
+this docker-compose worked on docker-compose<=1.29.1 or higher
+
 how to use
 ```
 $docker-compose up
@@ -14,5 +18,3 @@ if u want to conda activate
 ```
 source /opt/conda/bin/activate
 ```
-
-nohup python work/exps/exp046_ventilator-train-classification.py >> work/exps/exp046.log 2>&1 &
