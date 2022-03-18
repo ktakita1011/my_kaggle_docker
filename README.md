@@ -5,6 +5,7 @@ this docker-compose worked on docker-compose<=1.29.1 or higher
 how to use
 ```
 $docker-compose up
+or
 $docker-compose up -d
 ```
 
