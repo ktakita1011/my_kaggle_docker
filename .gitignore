@@ -1,5 +1,6 @@
 *.bin
 jupyter.log
+.virtual_documents
 *.pt
 *.pyc
 *.pth
@@ -16,9 +17,5 @@ work/notebook/.ipynb_checkpoints
 .Trash-0
 work/notebook/nohup.out
 work/notebook/lightning_logs
-work/2ndstage/.ipynb_checkpoints
-work/2ndstage/output/*
 wandb/*
 lightning_logs/*
-work/notebooks/data/*
-work/notebooks/dataset/*
