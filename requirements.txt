@@ -1,8 +1,10 @@
-pytorch-lightning==1.7.6
-pytorch-lightning-spells==0.0.3
+#notebook update
+notebook==7.0.4
+#これを入れないとnotebookでtqdmが表示エラーになる
+ipywidgets==8.0.6
+#その他
 wandb==0.12.9
 python-box==5.4.1
 faiss-gpu==1.7.2
-python-box==5.4.1
 grad-cam==1.3.1
 ttach==0.0.3

@@ -10,9 +10,8 @@ services:
               capabilities: [gpu]
     shm_size: '8gb'
     volumes:
-      - ./:/workdir
-    working_dir: /workdir
+      - ./:/kaggle
+    working_dir: /kaggle
     ports:
       - "8888:8888"
-      - "10022:22"
     tty: true
