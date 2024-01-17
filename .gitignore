@@ -13,11 +13,12 @@ jupyter.log
 *.parquet
 *.npy
 .ipynb_checkpoints
-work/output/*
-work/notebook/wandb
-work/notebook/.ipynb_checkpoints
+output/*
+notebook/wandb
+notebook/.ipynb_checkpoints
+notebook/dataset
 .Trash-0
-work/notebook/nohup.out
-work/notebook/lightning_logs
+notebook/nohup.out
+notebook/lightning_logs
 wandb/*
 lightning_logs/*
