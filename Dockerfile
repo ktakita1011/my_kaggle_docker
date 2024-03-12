@@ -4,6 +4,7 @@ FROM gcr.io/kaggle-gpu-images/python:v137
 ENV lang="ja_jp.utf-8" language="ja_jp:ja" lc_all="ja_jp.utf-8"
 
 COPY kaggle.json /root/.kaggle/kaggle.json
+RUN chmod 600 /root/.kaggle/kaggle.json
 
 #ライブラリのインストール
 WORKDIR /kaggle
